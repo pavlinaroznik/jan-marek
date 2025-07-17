@@ -4,4 +4,6 @@
 @theme {
   --font-bebas-neue: "Bebas Neue", sans-serif; 
    --font-roboto: "Roboto", sans-serif; 
+   --color-primary: #211d1f;
+   --color-secondary: #fec934;
 }
