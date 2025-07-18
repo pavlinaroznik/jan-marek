@@ -7,33 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jan Marek</title>
   </head>
-  <body class="w-full h-full flex flex-col bg-primary">
-    <div id="name" class="bg-secondary text-center font-bebas-neue text-4xl p-2">
+  <body class="w-full h-full flex flex-col bg-primary text-white">
+    <div id="name" class="bg-secondary text-center font-bebas-neue text-4xl p-2 text-black">
       Jan Marek
     </div>
-    <img class="w-[550px]" src="/letak-final.png" alt="political leaflet of a man standing">
-    <h1 class="font-bebas-neue text-center text-6xl">
+    <div class="flex justify-center m-4">
+      <img class="w-[550px]" src="/letak-final.png" alt="political leaflet of a man standing">
+    </div>
+    <h1 class="font-bebas-neue text-center text-6xl m-4">
       ODVAHA KE ZMĚNĚ!
     </h1>
-    <p class="font-roboto text-center">
+    <p class="font-roboto text-center m-4">
       Víme co máme dělat, abychom byli úspěšnou zemí.
     </p>
-      <p class="font-roboto text-center">
+      <p class="font-roboto text-center m-4">
       Vše co potřebujeme, je odvaha ke změně.
     </p>
-    <h2 class="font-bebas-neue text-center text-5xl">
+    <h2 class="font-bebas-neue text-center text-5xl m-4">
       MLADÝ. TVRDÝ. S TAHEM NA BRANKU.
     </h2>
-    <h2 class="font-bebas-neue text-center text-5xl">
+    <h2 class="font-bebas-neue text-center text-5xl m-4">
       TAK AKORÁT PRAGMATICKÝ, ABY NĚCO OPRAVDU PROSADIL.
     </h2>
-    <h2 class="font-bebas-neue text-center text-5xl">
+    <h2 class="font-bebas-neue text-center text-5xl m-4">
       TAK AKORÁT IDEALISTICKÝ, ABY NEZAPOMNĚL ODKUD PŘIŠEL A PRO KOHO TO DĚLÁ.
     </h2>
-    <h3 class="font-bebas-neue text-left text-5xl">
+    <h3 class="font-bebas-neue text-left text-5xl m-4">
       ZA CO BUDU BOJOVAT?
     </h3>
-    <div id="tiles" class="flex items-center grid-cols-4">
+    <div id="tiles" class="grid grid-cols-1 md:grid-cols-4 gap-4 justify-items-center text-center m-4">
       <div id="col-1" class="">
         Moderní antimonopolní zákony
       </div>
@@ -47,33 +49,35 @@
         Dostupnější bydlení
       </div>
     </div>
-      <div class="flex grid-cols-2">
+      <div id="faq" class="flex grid-cols-2 justify-center m-4">
         <h3 class="font-bebas-neue text-left text-5xl">
           KDO JSEM?
         </h3>
-        <div id="roll-out" class="flex grid-rows-3">
+        <div id="roll-out" class="grid grid-cols-1 m-4">
           <div id="row-1" class="">
             Co mě žene?
-          </di>
+          </div>
           <div id="row-2" class="">
             Životopis ve zkratce
-          </di>
+          </div>
           <div id="row-3" class="">
             Magické číslo 4000
-          </di>
+          </div>
         </div>
       </div>
-
   </body>
+
   <footer>
-    <div id="authors" class="flex grid-cols-2 items-center justify-between">
+    <div id="bottom" class="grid grid-cols-3 items-center text-center m-4">
       <div class="">
         pavlinaroznik
+      </div>
+      <div class="flex justify-center">
+        <img src="/logo_inverse.png" alt="logo pirati" class="w-16 h-auto"/>
       </div>
       <div class="">
         Zadavatel/zpracovatel: Piráti
       </div>
     </div>
-    <img src="/logo_inverse.png" alt="logo pirati" class="size-15">
   </footer>
 </html>
