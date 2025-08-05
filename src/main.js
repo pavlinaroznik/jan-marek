@@ -1,6 +1,6 @@
   document.querySelectorAll('.dropdown-header').forEach(button => {
     button.addEventListener('click', () => {
-      const content = button.nextElementSibling;
+      const content = button.querySelector('.dropdown-content');
 
 // Collapse all others (optional)
     //   document.querySelectorAll('.dropdown-content').forEach(el => {
@@ -13,7 +13,7 @@
       if (content.style.maxHeight) {
         content.style.maxHeight = null;
       } else {
-        content.style.maxHeight = content.scrollHeight + "px";
+        content.style.maxHeight = content.querySelector('p').scrollHeight + "px";
       }
     });
   });
