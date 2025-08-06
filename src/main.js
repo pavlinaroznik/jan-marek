@@ -12,8 +12,9 @@
       // Toggle current
       if (content.style.maxHeight) {
         content.style.maxHeight = null;
-      } else {
-        content.style.maxHeight = content.querySelector('p').scrollHeight + "px";
+      } 
+      else {
+        content.style.maxHeight = content.querySelector('p, ul').scrollHeight + "px";
       }
     });
   });
